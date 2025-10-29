@@ -1,0 +1,24 @@
+disabled_rules:
+#  - trailing_whitespace
+  - line_length
+  - file_length
+  - function_body_length
+  - type_body_length
+  - vertical_whitespace
+  - unused_optional_binding
+  - unneeded_override
+
+opt_in_rules:
+  - empty_count
+  - empty_string
+  - force_unwrapping
+  - force_cast
+  - force_try
+
+# line_length: 120
+# file_length: 400
+
+excluded:
+  - Pods
+  - DerivedData
+  - .build
